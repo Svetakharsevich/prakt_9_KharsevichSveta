@@ -1,0 +1,32 @@
+import products.DairyProduct as Newproduct
+import exams.exam as Newexams
+fun main() {
+    var camembert=cheese(true,"camembert", 10, 5, "Москва", 1200)
+    camembert. ProductWeight()
+    camembert.FatContentOfProduct()
+    camembert.ManufacturerOfproducts()
+    var chedder=cheese(false,"chedder", 5, 35, "Англия", 1500)
+    chedder. ProductWeight()
+    chedder.FatContentOfProduct()
+    chedder.ManufacturerOfproducts()
+    var cow=milk("Кокос",false, "MILK", 150, 20, "Питер",100)
+    cow. ProductWeight()
+    cow.FatContentOfProduct()
+    cow.ManufacturerOfproducts()
+    var mathe=mathematics(true,"Карандаш","Попов П.П","Математика","20.11.2023",4)
+    mathe. Nameandestimation()
+    mathe.date()
+    mathe.traintime()
+    mathe.info()
+    var mathe_1=mathematics(false,"Циркуль","Иванов И.И.","Математика","20.11.2023",4)
+    mathe_1. Nameandestimation()
+    mathe_1.date()
+    mathe_1.traintime()
+    mathe_1.info()
+    var liter=literature(false,"Комаров К.К","Литература","25.01.2023",5)
+    liter. Nameandestimation()
+    liter.date()
+    liter.information()
+    liter.info()
+}
+
